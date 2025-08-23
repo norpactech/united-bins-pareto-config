@@ -1,0 +1,28 @@
+action,tenant,schema,project,context,name,description,sub_package,plugin
+// pgsql,,,,,,,,
+p,norpac,united-bins,united-bins-db,pgsql,database_tables,Data Definition,ddl.table,pgsql_create_table
+p,norpac,united-bins,united-bins-db,pgsql,database_validations,Postgres Validation Functions,ddl.validation,pgsql_validations
+p,norpac,united-bins,united-bins-db,pgsql,database_insert,Postgres Insert Procedure,ddl.insert,pgsql_function_insert
+p,norpac,united-bins,united-bins-db,pgsql,database_update,Postgres Update Procedure,ddl.update,pgsql_function_update
+p,norpac,united-bins,united-bins-db,pgsql,database_delete,Postgres Delete Procedure,ddl.delete,pgsql_function_delete
+p,norpac,united-bins,united-bins-db,pgsql,database_active,Postgres Active Procedure,ddl.active,pgsql_function_active
+// msdos,,,,,,,,
+p,norpac,united-bins,united-bins-db,msdos,create_tables_os_script,Create Database Tables Script,ddl.table,msdos_pgsql_create_table
+p,norpac,united-bins,united-bins-db,msdos,validations_os_script,Create Database Validations Script,ddl.validation,msdos_pgsql_validations
+p,norpac,united-bins,united-bins-db,msdos,insert_os_script,Create Insert Scripts,ddl.insert,msdos_pgsql_insert
+p,norpac,united-bins,united-bins-db,msdos,update_os_script,Create Update Scripts,ddl.update,msdos_pgsql_update
+p,norpac,united-bins,united-bins-db,msdos,delete_os_script,Create Delete Scripts,ddl.delete,msdos_pgsql_delete
+p,norpac,united-bins,united-bins-db,msdos,active_os_script,Create Active Scripts,ddl.active,msdos_pgsql_active
+// united-bins-csr-api,,,,,,,,
+p,norpac,united-bins,united-bins-csr-api,java,java_api_model,Java Class API Model,api.model,java_api_model
+p,norpac,united-bins,united-bins-csr-api,java,java_api_active_request,Java Active API Requests,api.dto,java_api_active_request
+p,norpac,united-bins,united-bins-csr-api,java,java_api_delete_request,Java Delete API Requests,api.dto,java_api_delete_request
+p,norpac,united-bins,united-bins-csr-api,java,java_api_post_request,Java Post API Requests,api.dto,java_api_post_request
+p,norpac,united-bins,united-bins-csr-api,java,java_api_put_request,Java Put API Requests,api.dto,java_api_put_request
+p,norpac,united-bins,united-bins-csr-api,java,java_api_controller,Java Controller Classes,api.controller.v01,java_api_controller
+// united-bins-loader,,,,,,,,
+p,norpac,united-bins,united-bins-loader,java,java_api_model,Java Class API Model,loader.model,java_api_model
+p,norpac,united-bins,united-bins-loader,java,java_api_delete_request,Java Delete API Requests,loader.dto,java_api_delete_request
+p,norpac,united-bins,united-bins-loader,java,java_api_post_request,Java Post API Requests,loader.dto,java_api_post_request
+p,norpac,united-bins,united-bins-loader,java,java_api_put_request,Java Put API Requests,loader.dto,java_api_put_request
+p,norpac,united-bins,united-bins-loader,java,java_native_repository,Java Native (Non-Spring) Repository,loader.repository,java_native_repository

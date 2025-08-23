@@ -1,0 +1,101 @@
+action,tenant,schema,context,generic_data_type,sequence,name,description,alias,context_value
+// pgsql,,,,,,,,,
+p,norpac,united-bins,pgsql,uuid,1,uuid,"Unique identifier, non-generated (i.e. foreign key)",UUID,uuid
+p,norpac,united-bins,pgsql,char,3,char,Fixed-length string,Char,char
+p,norpac,united-bins,pgsql,varchar,4,varchar,Variable-length string,Varying Character,varchar
+p,norpac,united-bins,pgsql,text,5,text,Large text storage,Text,text
+p,norpac,united-bins,pgsql,boolean,6,boolean,True/False values,Boolean,boolean
+p,norpac,united-bins,pgsql,smallint,7,smallint,Small Integer,Small Integer,smallint
+p,norpac,united-bins,pgsql,integer,8,integer,Integer,Integer,integer
+p,norpac,united-bins,pgsql,integer_serial,9,serial,"Integer, serial","Integer, Serial",serial
+p,norpac,united-bins,pgsql,bigint,10,bigint,Big integer,Big Integer,bigint
+p,norpac,united-bins,pgsql,biginteger_serial,11,bigserial,"Big integer, serial","Big Integer, Serial",bigserial
+p,norpac,united-bins,pgsql,real,12,real,Floating-point number with lower precision,Real Number,real
+p,norpac,united-bins,pgsql,double,13,double,Approximate precision floating-point numbers,Double Precision Number,double
+p,norpac,united-bins,pgsql,decimal,14,decimal,Exact precision decimal numbers,Fixed Decimal,decimal
+p,norpac,united-bins,pgsql,date,15,date,Date only,Date,date
+p,norpac,united-bins,pgsql,time,16,time,Time only,Time,time
+p,norpac,united-bins,pgsql,date_time,17,date_time,Date and time,Date Time,timestamp
+p,norpac,united-bins,pgsql,timestamp,18,timestamp,Exact date and time displayed in time zone,Timestamp,timestamp
+p,norpac,united-bins,pgsql,blob,19,blob,Binary data,Binary Data,blob
+p,norpac,united-bins,pgsql,json,20,json,JSON-formatted data,JSON Data,json
+// mysql,,,,,,,,,
+p,norpac,united-bins,mysql,uuid,1,char(36),"Unique identifier, non-generated (i.e. foreign key)",UUID,integer
+p,norpac,united-bins,mysql,char,3,char,Fixed-length string,Char,char
+p,norpac,united-bins,mysql,varchar,4,varchar,Variable-length string,Varying Character,varchar
+p,norpac,united-bins,mysql,text,5,text,Large text storage,Text,longtext
+p,norpac,united-bins,mysql,boolean,6,boolean,True/False values,Boolean,boolean
+p,norpac,united-bins,mysql,smallint,7,smallint,Small Integer,Small Integer,smallint
+p,norpac,united-bins,mysql,integer,8,int,Integer,Integer,integer
+p,norpac,united-bins,mysql,integer_serial,9,serial,"Integer, serial","Integer, Serial",serial
+p,norpac,united-bins,mysql,bigint,10,bigint,Big integer,Big Integer,bigint
+p,norpac,united-bins,mysql,biginteger_serial,11,bigserial,"Big integer, serial","Big Integer, Serial",bigserial
+p,norpac,united-bins,mysql,real,12,real,Floating-point number with lower precision,Real Number,float
+p,norpac,united-bins,mysql,double,13,double,Approximate precision floating-point numbers,Double Precision Number,double
+p,norpac,united-bins,mysql,decimal,14,decimal,Exact precision decimal numbers,Fixed Decimal,decimal
+p,norpac,united-bins,mysql,date,15,date,Date only,Date,date
+p,norpac,united-bins,mysql,time,16,time,Time only,Time,time
+p,norpac,united-bins,mysql,date_time,17,date_time,Date and time,Date Time,datetime
+p,norpac,united-bins,mysql,timestamp,18,timestamp,Exact date and time displayed in time zone,Timestamp,timestamp
+p,norpac,united-bins,mysql,blob,19,blob,Binary data,Binary Data,longblob
+p,norpac,united-bins,mysql,json,20,json,JSON-formatted data,JSON Data,json
+// java,,,,,,,,,
+p,norpac,united-bins,java,uuid,1,uuid,"Unique identifier, non-generated (i.e. foreign key)",UUID,java.util.UUID
+p,norpac,united-bins,java,char,3,char,Fixed-length string,Char,java.lang.String
+p,norpac,united-bins,java,varchar,4,varchar,Variable-length string,Varying Character,java.lang.String
+p,norpac,united-bins,java,text,5,text,Large text storage,Text,java.lang.String
+p,norpac,united-bins,java,boolean,6,boolean,True/False values,Boolean,java.lang.Boolean
+p,norpac,united-bins,java,smallint,7,short,Small Integer,Small Integer,java.lang.Short
+p,norpac,united-bins,java,integer,8,integer,Integer,Integer,java.lang.Integer
+p,norpac,united-bins,java,integer_serial,9,serial,"Integer, serial","Integer, Serial",java.lang.Integer
+p,norpac,united-bins,java,bigint,10,long,Big integer,Big Integer,java.lang.Long
+p,norpac,united-bins,java,biginteger_serial,11,long_serial,"Big integer, serial","Big Integer, Serial",java.lang.Long
+p,norpac,united-bins,java,real,12,float,Floating-point number with lower precision,Real Number,java.lang.Float
+p,norpac,united-bins,java,double,13,double,Approximate precision floating-point numbers,Double Precision Number,java.lang.Double
+p,norpac,united-bins,java,decimal,14,decimal,Exact precision decimal numbers,Fixed Decimal,java.lang.Double
+p,norpac,united-bins,java,date,15,date,Date only,Date,java.time.LocalDate
+p,norpac,united-bins,java,time,16,time,Time only,Time,java.time.LocalTime 
+p,norpac,united-bins,java,date_time,17,date_time,Date and time,Date Time,java.time.LocalDateTime
+p,norpac,united-bins,java,timestamp,18,timestamp,Exact date and time displayed in time zone,Timestamp,java.sql.Timestamp
+p,norpac,united-bins,java,blob,19,blob,Binary data,Binary Data,java.lang.Byte
+p,norpac,united-bins,java,json,20,json,JSON-formatted data,JSON Data,com.google.gson.Gson
+// typescript,,,,,,,,,
+p,norpac,united-bins,typescript,uuid,1,uuid,"Unique identifier, non-generated (i.e. foreign key)",UUID,string
+p,norpac,united-bins,typescript,char,3,char,Fixed-length string,Char,string
+p,norpac,united-bins,typescript,varchar,4,varchar,Variable-length string,Varying Character,string
+p,norpac,united-bins,typescript,text,5,text,Large text storage,Text,string
+p,norpac,united-bins,typescript,boolean,6,boolean,True/False values,Boolean,boolean
+p,norpac,united-bins,typescript,smallint,7,short,Small Integer,Small Integer,number
+p,norpac,united-bins,typescript,integer,8,integer,Integer,Integer,number
+p,norpac,united-bins,typescript,integer_serial,9,serial,"Integer, serial","Integer, Serial",number
+p,norpac,united-bins,typescript,bigint,10,long,Big integer,Big Integer,number
+p,norpac,united-bins,typescript,biginteger_serial,11,long_serial,"Big integer, serial","Big Integer, Serial",number
+p,norpac,united-bins,typescript,real,12,float,Floating-point number with lower precision,Real Number,number
+p,norpac,united-bins,typescript,double,13,double,Approximate precision floating-point numbers,Double Precision Number,number
+p,norpac,united-bins,typescript,decimal,14,decimal,Exact precision decimal numbers,Fixed Decimal,number
+p,norpac,united-bins,typescript,date,15,date,Date only,Date,Date
+p,norpac,united-bins,typescript,time,16,time,Time only,Time,string
+p,norpac,united-bins,typescript,date_time,17,date_time,Date and time,Date Time,Date
+p,norpac,united-bins,typescript,timestamp,18,timestamp,Exact date and time displayed in time zone,Timestamp,Date
+p,norpac,united-bins,typescript,blob,19,blob,Binary data,Binary Data,Blob
+p,norpac,united-bins,typescript,json,20,json,JSON-formatted data,JSON Data,any
+// schemacrawler,,,,,,,,,
+p,norpac,united-bins,schemacrawler,uuid,1,char(36),"Unique identifier, non-generated (i.e. foreign key)",UUID,uuid
+p,norpac,united-bins,schemacrawler,char,3,char,Fixed-length string,Char,char
+p,norpac,united-bins,schemacrawler,varchar,4,varchar,Variable-length string,Varying Character,varchar
+p,norpac,united-bins,schemacrawler,text,5,text,Large text storage,Text,longvarchar
+p,norpac,united-bins,schemacrawler,boolean,6,bit,True/False values,Boolean,boolean
+p,norpac,united-bins,schemacrawler,smallint,7,short,Small Integer,Small Integer,tinyint
+p,norpac,united-bins,schemacrawler,integer,8,int,Integer,Integer,integer
+p,norpac,united-bins,schemacrawler,integer_serial,9,serial,"Integer, serial","Integer, Serial",integer-serial
+p,norpac,united-bins,schemacrawler,bigint,10,long,Big integer,Big Integer,bigint
+p,norpac,united-bins,schemacrawler,biginteger_serial,11,long_serial,"Big integer, serial","Big Integer, Serial",bigint-serial
+p,norpac,united-bins,schemacrawler,real,12,float,Floating-point number with lower precision,Real Number,float
+p,norpac,united-bins,schemacrawler,double,13,double,Approximate precision floating-point numbers,Double Precision Number,double
+p,norpac,united-bins,schemacrawler,decimal,14,decimal,Exact precision decimal numbers,Fixed Decimal,decimal
+p,norpac,united-bins,schemacrawler,date,15,date,Date only,Date,date
+p,norpac,united-bins,schemacrawler,time,16,time,Time only,Time,time
+p,norpac,united-bins,schemacrawler,date_time,17,date_time,Date and time,Date Time,date_time
+p,norpac,united-bins,schemacrawler,timestamp,18,timestamp,Exact date and time displayed in time zone,Timestamp,timestamp
+p,norpac,united-bins,schemacrawler,blob,19,blob,Binary data,Binary Data,blob
+p,norpac,united-bins,schemacrawler,json,20,json,JSON-formatted data,JSON Data,json

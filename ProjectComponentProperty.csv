@@ -1,0 +1,55 @@
+action,tenant,schema,project,project_component,sequence,data_object_filter,property_filter
+// database_insert,,,,,,,
+p,norpac,united-bins,united-bins-db,database_insert,1,*,!=id
+p,norpac,united-bins,united-bins-db,database_insert,2,*,!=created_at
+p,norpac,united-bins,united-bins-db,database_insert,3,*,!=updated_at
+p,norpac,united-bins,united-bins-db,database_insert,4,*,!=updated_by
+p,norpac,united-bins,united-bins-db,database_insert,5,*,!=is_active
+p,norpac,united-bins,united-bins-db,database_insert,6,*,*
+// database_update,,,,,,,
+p,norpac,united-bins,united-bins-db,database_update,1,*,!=created_at
+p,norpac,united-bins,united-bins-db,database_update,2,*,!=created_by
+p,norpac,united-bins,united-bins-db,database_update,3,*,!=is_active
+p,norpac,united-bins,united-bins-db,database_update,4,*,*
+// msdos_update,,,,,,,
+p,norpac,united-bins,united-bins-db,update_os_script,1,tenant_user,!=*
+p,norpac,united-bins,united-bins-db,update_os_script,2,user_role,!=*
+// msdos_active,,,,,,,
+p,norpac,united-bins,united-bins-db,active_os_script,1,tenant_user,!=*
+p,norpac,united-bins,united-bins-db,active_os_script,2,user_role,!=*
+// united-bins-api,,,,,,,
+// api_post_request,,,,,,,
+p,norpac,united-bins,united-bins-csr-api,java_api_post_request,1,*,!=id
+p,norpac,united-bins,united-bins-csr-api,java_api_post_request,2,*,!=created_at
+p,norpac,united-bins,united-bins-csr-api,java_api_post_request,3,*,!=updated_at
+p,norpac,united-bins,united-bins-csr-api,java_api_post_request,4,*,!=updated_by
+p,norpac,united-bins,united-bins-csr-api,java_api_post_request,5,*,!=is_active
+p,norpac,united-bins,united-bins-csr-api,java_api_post_request,6,*,*
+// api_put_request,,,,,,,
+p,norpac,united-bins,united-bins-csr-api,java_api_put_request,1,*,!=created_at
+p,norpac,united-bins,united-bins-csr-api,java_api_put_request,2,*,!=created_by
+p,norpac,united-bins,united-bins-csr-api,java_api_put_request,3,*,!=is_active
+p,norpac,united-bins,united-bins-csr-api,java_api_put_request,4,*,*
+// api_delete_request,,,,,,,
+p,norpac,united-bins,united-bins-csr-api,java_api_delete_request,1,*,!=created_at
+p,norpac,united-bins,united-bins-csr-api,java_api_delete_request,2,*,!=created_by
+p,norpac,united-bins,united-bins-csr-api,java_api_delete_request,3,*,!=is_active
+p,norpac,united-bins,united-bins-csr-api,java_api_delete_request,4,*,*
+// united-bins-loader,,,,,,,
+// api_post_request,,,,,,,
+p,norpac,united-bins,united-bins-loader,java_api_post_request,1,*,!=id
+p,norpac,united-bins,united-bins-loader,java_api_post_request,2,*,!=created_at
+p,norpac,united-bins,united-bins-loader,java_api_post_request,3,*,!=updated_at
+p,norpac,united-bins,united-bins-loader,java_api_post_request,4,*,!=updated_by
+p,norpac,united-bins,united-bins-loader,java_api_post_request,5,*,!=is_active
+p,norpac,united-bins,united-bins-loader,java_api_post_request,6,*,*
+// api_put_request,,,,,,,
+p,norpac,united-bins,united-bins-loader,java_api_put_request,1,*,!=created_at
+p,norpac,united-bins,united-bins-loader,java_api_put_request,2,*,!=created_by
+p,norpac,united-bins,united-bins-loader,java_api_put_request,3,*,!=is_active
+p,norpac,united-bins,united-bins-loader,java_api_put_request,4,*,*
+// api_delete_request,,,,,,,
+p,norpac,united-bins,united-bins-loader,java_api_delete_request,1,*,!=created_at
+p,norpac,united-bins,united-bins-loader,java_api_delete_request,2,*,!=created_by
+p,norpac,united-bins,united-bins-loader,java_api_delete_request,3,*,!=is_active
+p,norpac,united-bins,united-bins-loader,java_api_delete_request,4,*,*

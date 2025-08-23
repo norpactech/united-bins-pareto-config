@@ -1,0 +1,8 @@
+action,context,tenant,schema,generic_data_type,generic_property_type,length,scale,is_nullable,default_value
+// pgsql,,,,,,,,,
+p,pgsql,norpac,united-bins,uuid,id,,,FALSE,GEN_RANDOM_UUID()
+p,pgsql,norpac,united-bins,timestamp,created_at,,,FALSE,CURRENT_TIMESTAMP
+p,pgsql,norpac,united-bins,varchar,created_by,,,FALSE,
+p,pgsql,norpac,united-bins,timestamp,updated_at,,,FALSE,CURRENT_TIMESTAMP
+p,pgsql,norpac,united-bins,varchar,updated_by,,,FALSE,
+p,pgsql,norpac,united-bins,boolean,is_active,,,FALSE,TRUE

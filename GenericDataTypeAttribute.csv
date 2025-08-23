@@ -1,0 +1,10 @@
+action,tenant,schema,generic_data_type,rt_attr_data_type,name,description
+p,norpac,united-bins,char,integer,length,Character length value
+p,norpac,united-bins,varchar,integer,length,Varying character length value
+p,norpac,united-bins,smallint,numeric_size_enum,size,"Small not [Medium, Large]"
+p,norpac,united-bins,integer,numeric_size_enum,size,"Medium not [Small, Large]"
+p,norpac,united-bins,bigint,numeric_size_enum,size,"Large not [Small, Medium]"
+p,norpac,united-bins,real,numeric_size_enum,size,"Small not [Medium, Large]"
+p,norpac,united-bins,double,numeric_size_enum,size,"Medium not [Small, Large]"
+p,norpac,united-bins,decimal,integer,length,Decimal number size
+p,norpac,united-bins,decimal,integer,precision,Decimal precision (size)

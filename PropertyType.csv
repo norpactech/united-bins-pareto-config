@@ -1,0 +1,20 @@
+action,tenant,generic_data_type,name,description,length,precision,is_nullable,default_value,validation
+// commons,,,,,,,,,
+p,norpac,uuid,id,Unique Identifier - System Dependent,,,FALSE,,
+p,norpac,uuid,fk,Foreign Key,,,TRUE,,
+p,norpac,varchar,username,User Name,32,,FALSE,,
+p,norpac,varchar,password,Password,255,,FALSE,,
+p,norpac,timestamp,created_at,Created At Timestamp,,,FALSE,,
+p,norpac,varchar,created_by,Created By User/Process,32,,FALSE,,
+p,norpac,timestamp,updated_at,Updated At Timestamp,,,FALSE,,
+p,norpac,varchar,updated_by,Updated By User/Process,32,,FALSE,,
+p,norpac,boolean,is_active,Is Active Flag,,,FALSE,TRUE,
+// numeric,,,,,,,,,
+p,norpac,decimal,money,Money,10,2,FALSE,,
+// character,,,,,,,,,
+p,norpac,varchar,name,Generic Name Value,32,,FALSE,,
+p,norpac,text,description,Generic Description,,,TRUE,,
+p,norpac,varchar,email,Email,126,,TRUE,,email
+p,norpac,varchar,phone,Phone Number,10,,TRUE,,us_phone
+p,norpac,character,state,US States,2,,TRUE,,us_state
+p,norpac,varchar,zip_code,US Zip Codes,10,,TRUE,,us_zip_code

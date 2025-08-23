@@ -1,0 +1,2 @@
+action,tenant,time_zone,email,last_name,first_name,phone,street1,street2,city,state,zip_code
+p,norpac,USA Pacific,scott@norpactech.com,Scott,Klakken,111-222-3333,123 Easy St.,Suite 1,Spokane,WA,99208

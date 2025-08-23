@@ -1,0 +1,12 @@
+action,tenant,name,description,validation_type,error_msg,expression
+p,norpac,email,Email Address,RegExp,Invalid Email Format,"^[A-Za-z0-9]+([._%+-][A-Za-z0-9]+)*@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
+p,norpac,us_state,United States 2 Char State Code,Enum,Invalid US State Abbreviation,"['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY']"
+p,norpac,us_phone,United State Phone without Extension,RegExp,Invalid US Phone. Only ###-###-#### is Valid,^\d{3}-\d{3}-\d{4}$
+p,norpac,us_zip_code,United States Zip Codes,RegExp,Invalid US Zip Code. Only ####[-####] is Valid,^\d{5}(-\d{4})?$
+p,norpac,username,System Username Validation,RegExp,"The username must start with a letter, be 3 to 32 characters long, and can only contain letters, numbers, underscores, or hyphens ","^[a-zA-Z][a-zA-Z0-9_-]{2,31}$"
+p,norpac,full_name,"Given, Middle, and Sir Name",RegExp,"The name must only contain letters, spaces, apostrophes ('), or hyphens (-), with each part up to 32 characters long. Consecutive apostrophes or hyphens are not allowed.","^[A-Za-z]{1,32}([-\'' ][A-Za-z]{1,32})*$"
+p,norpac,name,Generic Name with Few Special Characters,RegExp,"The value must be between 1 and 32 characters long and can only contain letters, numbers, spaces, hyphens, commas, periods, ampersands, apostrophes, or parentheses.","^[A-Za-z0-9_][A-Za-z0-9\s\-,\.&''()*_:]{0,30}[A-Za-z0-9_]$"
+p,norpac,numeric_size,"Small, Medium, Large",Enum,"Only Small, Medium, and Large is Valid","['small', 'medium', 'large']"
+p,norpac,fixed_varying,Is the value Fixed or Varying,Enum,The value must be either 'Fixed' or 'Varying',"['fixed', 'varying']"
+p,norpac,package,Package Structure (i.e. com.norpactech.pareto),RegExp,"Only [lower-case, number, and .] are valid",^[a-z0-9]+(\.[a-z0-9]+)*$
+p,norpac,service,Service Name,RegExp,"Must start with a lowercase letter and contain only letters, digits, and underscores",^[a-z][a-zA-Z0-9_]*$
