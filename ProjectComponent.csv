@@ -26,3 +26,11 @@ p,norpac,united-bins,united-bins-loader,java,java_api_delete_request,Java Delete
 p,norpac,united-bins,united-bins-loader,java,java_api_post_request,Java Post API Requests,loader.dto,java_api_post_request
 p,norpac,united-bins,united-bins-loader,java,java_api_put_request,Java Put API Requests,loader.dto,java_api_put_request
 p,norpac,united-bins,united-bins-loader,java,java_native_repository,Java Native (Non-Spring) Repository,loader.repository,java_native_repository
+// united-bins-csr-app,,,,,,,,
+p,norpac,united-bins,united-bins-csr-app,typescript,angular_model,Angular Model,shared.model,angular_model
+p,norpac,united-bins,united-bins-csr-app,typescript,angular_service,Angular Service,shared.service,angular_service
+p,norpac,united-bins,united-bins-csr-app,typescript,angular_active_dto_class,Angular Active DTO Classes,shared.dto,angular_dto_classes
+p,norpac,united-bins,united-bins-csr-app,typescript,angular_delete_dto_class,Angular Delete DTO Classes,shared.dto,angular_dto_classes
+p,norpac,united-bins,united-bins-csr-app,typescript,angular_post_dto_class,Angular Post DTO Classes,shared.dto,angular_dto_classes
+p,norpac,united-bins,united-bins-csr-app,typescript,angular_put_dto_class,Angular Put DTO Classes,shared.dto,angular_dto_classes
+p,norpac,united-bins,united-bins-csr-app,typescript,angular_dto_classes,Angular Put DTO Classes,shared.dto,angular_dto_classes

@@ -1,2 +1,2 @@
-action,tenant,name,description,database
-p,norpac,united-bins,United Bins Schema,norpac
+action,tenant,name,description,database,username
+p,norpac,united-bins,United Bins Schema,norpac,web_update

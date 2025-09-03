@@ -14,9 +14,11 @@ p,norpac,united-bins,united-bins-db,database_update,4,*,*
 // msdos_update,,,,,,,
 p,norpac,united-bins,united-bins-db,update_os_script,1,tenant_user,!=*
 p,norpac,united-bins,united-bins-db,update_os_script,2,user_role,!=*
+p,norpac,united-bins,united-bins-db,update_os_script,3,address_region,!=*
 // msdos_active,,,,,,,
 p,norpac,united-bins,united-bins-db,active_os_script,1,tenant_user,!=*
 p,norpac,united-bins,united-bins-db,active_os_script,2,user_role,!=*
+p,norpac,united-bins,united-bins-db,active_os_script,3,address_region,!=*
 // united-bins-api,,,,,,,
 // api_post_request,,,,,,,
 p,norpac,united-bins,united-bins-csr-api,java_api_post_request,1,*,!=id
@@ -53,3 +55,16 @@ p,norpac,united-bins,united-bins-loader,java_api_delete_request,1,*,!=created_at
 p,norpac,united-bins,united-bins-loader,java_api_delete_request,2,*,!=created_by
 p,norpac,united-bins,united-bins-loader,java_api_delete_request,3,*,!=is_active
 p,norpac,united-bins,united-bins-loader,java_api_delete_request,4,*,*
+// united-bins-csr-app,,,,,,,
+// api_post_request,,,,,,,
+p,norpac,united-bins,united-bins-csr-app,angular_post_dto_class,1,*,!=id
+p,norpac,united-bins,united-bins-csr-app,angular_post_dto_class,2,*,!=created_at
+p,norpac,united-bins,united-bins-csr-app,angular_post_dto_class,3,*,!=updated_at
+p,norpac,united-bins,united-bins-csr-app,angular_post_dto_class,4,*,!=updated_by
+p,norpac,united-bins,united-bins-csr-app,angular_post_dto_class,5,*,!=is_active
+p,norpac,united-bins,united-bins-csr-app,angular_post_dto_class,6,*,*
+// api_put_request,,,,,,,
+p,norpac,united-bins,united-bins-csr-app,angular_put_dto_class ,1,*,!=created_at
+p,norpac,united-bins,united-bins-csr-app,angular_put_dto_class ,2,*,!=created_by
+p,norpac,united-bins,united-bins-csr-app,angular_put_dto_class ,3,*,!=is_active
+p,norpac,united-bins,united-bins-csr-app,angular_put_dto_class ,4,*,*

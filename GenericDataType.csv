@@ -2,19 +2,20 @@ action,tenant,sequence,name,description,alias
 p,norpac,1,uuid,Unique identifier,UUID
 p,norpac,2,char,Fixed-length string,Char
 p,norpac,3,varchar,Variable-length string,Varchar
-p,norpac,4,text,Large text storage,Text
-p,norpac,5,boolean,True/False values,Boolean
-p,norpac,6,smallint,Small Integer,Small Integer
-p,norpac,7,integer,Integer,Integer
-p,norpac,8,integer_serial,"Integer, serial","Integer, Serial"
-p,norpac,9,bigint,Big integer,Big Integer
-p,norpac,10,biginteger_serial,"Big integer, serial","Big Integer, Serial"
-p,norpac,11,real,Floating-point number with lower precision,Real Number
-p,norpac,12,double,Approximate precision floating-point numbers,Double Precision Number
-p,norpac,13,decimal,Exact precision decimal numbers,Fixed Decimal
-p,norpac,14,date,Date only,Date
-p,norpac,15,time,Time only,Time
-p,norpac,16,date_time,Date and time,Date Time
-p,norpac,17,timestamp,Exact date and time displayed in time zone,Timestamp
-p,norpac,18,blob,Binary data,Binary Data
-p,norpac,19,json,JSON-formatted data,JSON Data
+p,norpac,4,text,Text storage,Text
+p,norpac,5,longtext,Large text storage,Long Text
+p,norpac,6,boolean,True/False values,Boolean
+p,norpac,7,smallint,Small Integer,Small Integer
+p,norpac,8,integer,Integer,Integer
+p,norpac,9,integer_serial,"Integer, serial","Integer, Serial"
+p,norpac,10,bigint,Big integer,Big Integer
+p,norpac,11,biginteger_serial,"Big integer, serial","Big Integer, Serial"
+p,norpac,12,real,Floating-point number with lower precision,Real Number
+p,norpac,13,double,Approximate precision floating-point numbers,Double Precision Number
+p,norpac,14,decimal,Exact precision decimal numbers,Fixed Decimal
+p,norpac,15,date,Date only,Date
+p,norpac,16,time,Time only,Time
+p,norpac,17,date_time,Date and time,Date Time
+p,norpac,18,timestamp,Exact date and time displayed in time zone,Timestamp
+p,norpac,19,blob,Binary data,Binary Data
+p,norpac,20,json,JSON-formatted data,JSON Data

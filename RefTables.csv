@@ -1,0 +1,37 @@
+action,tenant,ref_table_type,name,description,value,sequence
+// system,,,,,,
+// cardinality,,,,,,
+p,norpac,cardinality,1:1,One-to-One Relationship (Person/Passport),1:1,1
+p,norpac,cardinality,1:M,One-to-Many Relationship (Customer/Orders),1:M,2
+p,norpac,cardinality,M-1,Many-to-One Relationship (Employees/Company),M:1,3
+p,norpac,cardinality,M:M,Many-to-Many Relationship (Students/Courses),M:M,4
+// cardinality_strength,,,,,,
+p,norpac,cardinality_strength,Aggregation,Weak Relationship. Children can exist without a cousin,AGGREGATION,1
+p,norpac,cardinality_strength,Composition,Strong Relationship. Children cannot exist without a parent,COMPOSITION,2
+// index_type,,,,,,
+p,norpac,index_type,Primary,Primary Index,PRIMARY,1
+p,norpac,index_type,AltKey,Alternate Key Unique Index,ALTKEY,2
+p,norpac,index_type,Unique,Unique Index,UNIQUE,2
+p,norpac,index_type,Index,Non-Unique Index,INDEX,3
+// sort_order,,,,,,
+p,norpac,sort_order,Ascending,Ascending Index,ASC,1
+p,norpac,sort_order,Descending,Descending Index,DESC,2
+// validation_type,,,,,,
+p,norpac,validation_type,Enum,List of valid values,ENUM,1
+p,norpac,validation_type,RegExp,Regular Expression,REGEXP,2
+p,norpac,validation_type,Length,Length,LENGTH,3
+p,norpac,validation_type,NotNull,Not Null,NOTNULL,4
+p,norpac,validation_type,Logic,Logical Validation like age < 21,LOGIC,5
+p,norpac,validation_type,DataType,"Is a (integer, character, etc?)",DATATYPE,6
+// attr_data_type,,,,,,
+p,norpac,attr_data_type,integer,"Integer value, validation_type LENGTH",LENGTH,1
+p,norpac,attr_data_type,numeric_size_enum,"Enum value, validation_type ENUM: [Small, Medium, Large]",ENUM,2
+// time_zone,,,,,,
+p,norpac,time_zone,Universal,Coordinated Universal Time,UTC,1
+p,norpac,time_zone,USA Eastern,USA Eastern Time Zone,America/New_York,2
+p,norpac,time_zone,USA Central,USA Central Time Zone,America/Chicago,3
+p,norpac,time_zone,USA Mountain,USA Mountain Time Zone,America/Denver,4
+p,norpac,time_zone,USA Arizona,USA Arizona Time Zone,America/Phoenix,5
+p,norpac,time_zone,USA Pacific,USA Pacific Time Zone,America/Los_Angeles,6
+p,norpac,time_zone,USA Alaska,USA Alaskan Time Zone,America/Anchorage,7
+p,norpac,time_zone,USA Hawaii,USA Hawaiian Time Zone,Pacific/Honolulu,8

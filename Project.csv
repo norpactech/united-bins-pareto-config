@@ -1,4 +1,5 @@
 action,tenant,schema,name,description,domain,artifact
 p,norpac,united-bins,united-bins-db,United Bins Database Project,com.norpactech,ub
 p,norpac,united-bins,united-bins-csr-api,United Bins API Project,com.norpactech,ub
+p,norpac,united-bins,united-bins-csr-app,United Bins Customer Service Rep. Front End,com.norpactech,ub
 p,norpac,united-bins,united-bins-loader,Load United Bins from the Legacy System,com.norpactech,ub

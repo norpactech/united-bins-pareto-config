@@ -1,0 +1,8 @@
+action,tenant,name,description
+p,norpac,cardinality,Data Relationships
+p,norpac,cardinality_strength,Weak/Strong (Aggregation/Composition)
+p,norpac,index_type,"Primary, Unique, Index"
+p,norpac,sort_order,ASC/DESC Sort Order
+p,norpac,validation_type,Validation Types
+p,norpac,attr_data_type,Attribute Data Types
+p,norpac,time_zone,Time Zones
